@@ -68,7 +68,7 @@ public class SortedLinkedListImpl<T extends Comparable<T>> implements SortedLink
      * Removes specified element from this list.
      *
      * @param value value of element.
-     * @return {@code true} if  element was removed.
+     * @return {@code true} if element was removed.
      */
     @Override
     public boolean remove(T value) {

@@ -23,5 +23,20 @@ public class Main {
         System.out.println("Size of list1:" + list1.size());
         System.out.println("Sorted string list2:" + list2);
         System.out.println("Size of list2:" + list2.size());
+
+        list1.remove(5);
+
+        System.out.println("Sorted string list1:" + list1);
+        System.out.println("Size of list1:" + list1.size());
+
+        list1.remove(3);
+
+        System.out.println("Sorted string list1:" + list1);
+        System.out.println("Size of list1:" + list1.size());
+
+        list1.clear();
+
+        System.out.println("Sorted string list1:" + list1);
+        System.out.println("Size of list1:" + list1.size());
     }
 }
